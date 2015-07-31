@@ -116,6 +116,8 @@ $('.generate').click(function(){
     enable_loading();
     var n_groups = $('.groups').val();
     generateRandomArray(handler, 25, n_groups);
+
+    //for testing without requesting from random.org API
     //handler([9,6,8,22,8,12,23,23,13,18,14,14,19,23,21,15,20,23,19,19,23,23,24], -1, 25, n_groups);
 });
 
