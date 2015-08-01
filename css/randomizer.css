@@ -50,7 +50,7 @@ thead td{
 td {
     text-align: left;
     border-bottom: 1px solid #5C5C5C;
-    overflow: scroll;
+    /*overflow: scroll;*/
 }
 td.condition{
     width: 25%;
