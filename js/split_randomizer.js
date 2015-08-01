@@ -108,7 +108,7 @@ function split(slots, n_groups) {
 function generateSelection(n_groups){
   var i;
   for (i = 1; i<=25; i++){
-      $('.groups').append('<option value="' + i + '">' + i + "</option>")
+      $('.groups').append('<option value="' + i + '">' + i + "</option>");
   }
 }
 
